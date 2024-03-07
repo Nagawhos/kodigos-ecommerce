@@ -7,6 +7,25 @@ Este é um projeto que utiliza Next.js para o frontend e Nest.js para o backend.
 - Frontend: [Next.js](https://nextjs.org/)
  
 - Backend: [Nest.js](https://nestjs.com/)
+
+## Configuração e Execução Local
+
+```bash
+    cd backend/
+ ```
+
+```bash
+    cd backend/ npm run start:dev
+ ```
+Obs: Primeiro inicializa o backend e depois o frontend
+
+ ```bash
+    cd frontend/
+ ```
+
+```bash
+    cd frontend/ npm run dev
+ ``` 
  
 ## Configuração e Execução
  
