@@ -26,9 +26,9 @@ export default function ProductCard({ product }: ProductCardProps) {
         />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{product.name}</h2>
+        <h2 className="card-title" style={{ textAlign: "justify" }}>{product.name}</h2>
         {isNew && <div className="badge badge-secondary">NOVO</div>}
-        <p>{product.description}</p>
+        <p style={{ textAlign: "justify" }}>{product.description}</p>
         <PriceTag price={product.price} />
       </div>
     </Link>

@@ -44,7 +44,7 @@ export default function ShoppingCartButton({ cart }: ShoppingCartButtonProps) {
         className="card dropdown-content card-compact z-30 mt-3 w-52 bg-base-100 shadow"
       >
         <div className="card-body">
-          <span className="text-lg font-bold">{cart?.size || 0} Items</span>
+          <span className="text-lg font-bold">{cart?.size || 0} Itens</span>
           <span className="text-info">
             Subtotal: {formatPrice(cart?.subtotal || 0)}
           </span>
@@ -54,7 +54,7 @@ export default function ShoppingCartButton({ cart }: ShoppingCartButtonProps) {
               className="btn-primary btn-block btn"
               onClick={closeDropdown}
             >
-              View cart
+              Ver carrinho
             </Link>
           </div>
         </div>

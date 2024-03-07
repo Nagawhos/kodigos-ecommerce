@@ -51,17 +51,17 @@ export default function UserMenuButton({ session }: UserMenuButtonProps) {
               href=""
               className="btn-ghost btn normal-case border-gray-300"
               onClick={() => signOut({ callbackUrl: "/" })}>
-                Sign Out
+                Sair da Conta
               </Link>
               <Link
                 href="/add-product"
                 className="btn-ghost btn normal-case border-gray-300"
               >
-                Add Products
+                Adicionar Produtos
               </Link>
             </>
           ) : (
-            <button onClick={() => signIn()}>Sign In</button>
+            <button onClick={() => signIn()}>Fazer login</button>
           )}
         </li>
       </ul>
